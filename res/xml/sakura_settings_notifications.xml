@@ -23,4 +23,9 @@
         android:key="sakurasettings_footer"
         android:layout="@layout/sakurasettings_footer_animation" />
         
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.sakura.settings.fragments.HeadsUpSettings" />
+
 </PreferenceScreen>
