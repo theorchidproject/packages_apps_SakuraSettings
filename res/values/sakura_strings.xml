@@ -227,4 +227,8 @@
     <string name="network_traffic_layout_v">Verticle</string>
     <string name="nettraf_font_size">Single net font size</string>
 
+    <!-- Screenshot Sound  -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Toggle sound played while taking screenshot</string>
+
 </resources>
