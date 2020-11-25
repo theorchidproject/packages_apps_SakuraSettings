@@ -55,8 +55,6 @@
     <string name="device_smartron">Smartron</string>
     <string name="device_mido">Redmi Note 4</string>
     <!-- Categories -->
-    <string name="notifications_title">Notifications</string>
-   <string name="misc_title">misc</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
@@ -68,7 +66,6 @@
     <string name="statusbar_title">Status Bar</string>
     <string name="Opensource_Zone">Opensource Zone</string>
     
-    <string name="ok">Okay</string>
     <string name="default_string">Default</string>
     <string name="add">Add</string>
     <string name="enabled">Enabled</string>
@@ -76,6 +73,21 @@
     <string name="help">Help</string>
     <string name="reset_message">Reset all entries to default?</string>
     <string name="attention">Attention</string>
+    <string name="sakura_lockscreen_summary_title">secure lockscreen</string>        
+    <string name="misc_title">Miscellaneous</string>
+    <string name="sakura_misc_summary_title">Gaming mode and misc options</string>        
+    <string name="sakura_quicksettings_summary_title">Tile title, header images, opacity</string>        
+    <string name="interface_title">Interface</string>
+    <string name="sakura_interface_summary_title">Theming, battery bar</string>            
+    <string name="animation_title">Animations</string>
+    <string name="sakura_animation_summary_title">Opening and closing animations</string>        
+    <string name="notifications_title">Notifications</string>
+    <string name="sakura_notifications_summary_title">Heads up</string>        
+    <string name="sakura_updater_summary_title">OTA updates</string>        
+    <string name="updater_title">Sakura Updates</string>
+	
+    <!-- General strings -->
+    <string name="ok">OK</string>
     <string name="reset">Reset</string>
 
     <!-- everlides main settings -->
