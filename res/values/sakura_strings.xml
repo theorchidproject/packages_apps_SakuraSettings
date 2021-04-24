@@ -233,4 +233,8 @@
 
     <string name="audio_panel_view_timeout_title">Volume panel timeout</string>
 
+    <!-- Screenshot compression  -->
+    <string name="screenshot_compression_title">Screenshot quality</string>
+    <string name="screenshot_compression_summary">Compress screenshot size with loss in image quality</string>
+
 </resources>
