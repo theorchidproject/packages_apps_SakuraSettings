@@ -43,7 +43,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class AboutEverlides extends SettingsPreferenceFragment {
+public class AboutEverlides extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -52,11 +52,22 @@ public class AboutEverlides extends SettingsPreferenceFragment {
         PreferenceScreen prefSet = getPreferenceScreen();
         final Resources res = getResources();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        final ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CUSTOM_SETTINGS;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -75,4 +86,10 @@ public class AboutEverlides extends SettingsPreferenceFragment {
                     return keys;
                 }
             };
-} 
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        return false;
+    }
+
+}
