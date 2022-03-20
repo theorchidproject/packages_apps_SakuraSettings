@@ -36,4 +36,38 @@
     <string name="category_quicksettings_title">Quick Settings</string>
     <string name="category_statusbar_title">Statusbar</string>
 
+ <!-- About everlides -->
+     <string name="about_everlides">About Us</string>
+     <string name="about_info">About Us</string>
+     <string name="about_info_summary">this rom base is a custom rom that is based on lineageOs for stability thank you to arcana project, ricedroid, Protonaosp,Lightning fast rom, lineageextended and ArrowOS .</string>
+     <string name="core_header">Important</string>
+     <string name="founder">the Orchid Project</string>
+     <string name="founder_description">Founder</string>
+     <string name="founder_2">teammodmi</string>
+     <string name="founder_2_description">Founder</string>
+     <string name="features">Ricedroid lineagextended DotOs others..</string>
+     <string name="features_description">Core Dev / Features</string>
+     <string name="backend">theprojects</string>
+     <string name="backend_description">Core Dev / Backend</string>
+     <string name="security">OrchidOs</string>
+     <string name="security_description">Core Dev / Security</string>
+     <string name="designer">the projects</string>
+     <string name="designer_description">Wallpaper Designer / Bootanimation Designer</string>
+     <string name="social_header">#iths that simple!</string>
+     <string name="website">Website</string>
+     <string name="website_description">website for downloads and more info about our maintainers.</string>
+     <string name="cos_web_link">https://github.com/theorchidproject</string>
+     <string name="cos_telegram">Telegram</string>
+     <string name="cos_telegram_description">Official Updates.</string>
+     <string name="cos_telegram_link">https://t.me/+UpuSX5fKRCm_uGyL.me</string>
+     <string name="cos_github">Github</string>
+     <string name="cos_github_description">All sources are fully open on Github!</string>
+     <string name="cos_github_link">https://github.com/theorchidproject</string>
+     <string name="donation">Support Us</string>
+     <string name="donation_description">If you are kind, whoops not needed we are cool, remember black lives mater donate there</string>
+     <string name="donation_link">https://paypal.me/talabi</string>
+
+     <!-- Maintainers -->
+     <string name="official_devices">Maintainers and Official Devices</string>
+     <string name="check_maintainers">Go to our official group to check out our maintainers!</string>
 </resources> 
