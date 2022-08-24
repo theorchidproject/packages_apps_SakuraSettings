@@ -27,6 +27,13 @@
             android:summary="@string/sakura_about_info_summary_title"
             android:fragment="com.android.settings.custom.sakuraDevsInfoFragment" />
 
+ <!-- About everlidesOS -->
+    <Preference
+        android:key="abouteverlides"
+        android:title="@string/category_abouteverlides_title"
+        android:fragment="com.everlides.settings.fragments.Abouteverlides"
+        android:layout="@layout/preference_category_abouteverlides" />
+        
         <!-- Opensource_Zone Notifications 
         <com.sakura.settings.preferences.CardviewPreference
             android:key="Opensource_Zone"
