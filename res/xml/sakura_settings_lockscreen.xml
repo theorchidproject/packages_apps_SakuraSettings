@@ -19,4 +19,8 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.android.settingslib.widget.LayoutPreference
+        android:key="sakurasettings_footer"
+        android:layout="@layout/sakurasettings_footer_animation" />
+
 </PreferenceScreen>
