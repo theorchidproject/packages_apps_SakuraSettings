@@ -37,6 +37,7 @@
     <string name="device_X00T_description">teammodmi</string>
 	
     <!-- Categories -->
+   <string name="misc_title">misc</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>

@@ -20,17 +20,14 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="About Developers">
-       
+  
+  <PreferenceCategory
+              android:key="about"
+              android:title="@string/sakura_about_info" >     
        
         <com.android.settingslib.widget.LayoutPreference
         android:key="sakurasettings_footer"
-        android:layout="@layout/sakurasettings_footer_animation"
-        android:clickable="true"
-        settings:controller="com.android.settings.custom.ElixirLogoPreferenceController"/>
-
-<PreferenceCategory
-              android:key="about"
-              android:title="@string/sakura_about_info" >
+        android:layout="@layout/sakurasettings_footer_animation" />
 
         <Preference
                android:summary="@string/sakura_about_info_summary" 
