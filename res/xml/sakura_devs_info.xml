@@ -20,48 +20,11 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="About Developers">
-  
-  <PreferenceCategory
-              android:key="about"
-              android:title="@string/sakura_about_info" >     
+   
        
         <com.android.settingslib.widget.LayoutPreference
         android:key="sakurasettings_footer"
         android:layout="@layout/sakurasettings_footer_animation" />
 
-        <Preference
-               android:summary="@string/sakura_about_info_summary" 
-               android:icon="@drawable/ic_devs_info" >
-        <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://paypal.me/theproject" />
-        </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-            android:key="sakura_dev"
-            android:title="@string/devs_header" >
-        <Preference
-            android:title="@string/dev_1"
-            android:summary="@string/dev1_description">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://github.com/theorchidproject" />
-        </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_asus" >
-
-    <Preference
-        android:title="@string/device_X00T"
-        android:summary="@string/device_X00T_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/teammodmiirequests" />
-    </Preference>
-</PreferenceCategory>
 
 </PreferenceScreen>
