@@ -18,6 +18,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_abouteverlides_title" >
+
+     
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="everlidessettings_footer"
+        android:layout="@layout/everlidessettings_footer_animation" />
+        
 <Preference
         android:key="category_abouteverlides"
         android:title="@string/about_everlides"
