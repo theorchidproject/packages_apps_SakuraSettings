@@ -24,7 +24,8 @@
        <Preference
             android:key="dev_info"
             android:title="@string/sakura_about_info"
-            android:summary="@string/sakura_about_info_summary_title"
+            android:summary="@string/about_info_summary"
+            android:selectable="false"            
             android:fragment="com.android.settings.custom.sakuraDevsInfoFragment" />
 
         <!-- Power Menu -->
@@ -52,8 +53,7 @@
 
 <com.android.settingslib.widget.LayoutPreference
             android:key="quicksettings_category"
-             android:layout="@layout/sakura_settings_animation" 
-            android:key="quicksettings_category"
+            android:layout="@layout/sakura_settings_animation" 
             android:selectable="true"
             android:fragment="com.sakura.settings.fragments.QuickSettings" />
 </PreferenceScreen>
