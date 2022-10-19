@@ -62,7 +62,8 @@
     <string name="lockscreen_title">Lock Screen</string>
     <string name="Extra_beta_options">Extra beta options</string>
     <string name="navbar_title">Navigation Bar</string>
-    <string name="powermenu_title">Power Menu</string>
+
+    <string name="powermenu_title">More Information</string>
     <string name="quicksettings_title">Opensource</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="Opensource_Zone">Opensource Zone</string>
@@ -87,7 +88,7 @@
  <!-- About everlides -->
      <string name="about_everlides">About Us</string>
      <string name="about_info">About Us</string>
-     <string name="about_info_summary">this rom base is a custom rom that is based on lineageOs for stability thank you to arcana project, ricedroid, Protonaosp,Lightning fast rom, lineageextended and ArrowOS .</string>
+     <string name="about_info_summary">PepsiOs 12.1 is based on LineageOs, with added security and privacy features, please enjoy the Operating System. For more click the animation below</string>
      <string name="core_header">Important</string>
      <string name="founder">the Orchid Project</string>
      <string name="founder_description">Founder</string>
@@ -101,18 +102,20 @@
      <string name="security_description">Core Dev / Security</string>
      <string name="designer">the projects</string>
      <string name="designer_description">Wallpaper Designer / Bootanimation Designer</string>
-     <string name="social_header">#iths that simple!</string>
+
+     <string name="social_header">Its that simple!</string>
      <string name="website">Website</string>
-     <string name="website_description">website for downloads and more info about our maintainers.</string>
+     <string name="website_description">OrchidOs Rom Github</string>
      <string name="cos_web_link">https://github.com/theorchidproject</string>
      <string name="cos_telegram">Telegram</string>
-     <string name="cos_telegram_description">Official Updates.</string>
-     <string name="cos_telegram_link">https://t.me/+UpuSX5fKRCm_uGyL.me</string>
+     <string name="cos_telegram_description">OrchidOs Updates</string>
+     <string name="cos_telegram_link">https://t.me/+cpR-dFClV7o4YjY0</string>
      <string name="cos_github">Github</string>
-     <string name="cos_github_description">All sources are fully open on Github!</string>
+     <string name="cos_github_description">Our source files are available on Github!</string>
      <string name="cos_github_link">https://github.com/theorchidproject</string>
-     <string name="donation">Support Us</string>
-     <string name="donation_description">If you are kind, whoops not needed we are cool, remember black lives mater donate there</string>
-     <string name="donation_link">https://paypal.me/talabi</string>
+     <string name="Opensource">Open Source Applications</string>
+     <string name="Opensource_description">Opensource application list</string>
+     <string name="Opensource_link">https://github.com/LinuxCafeFederation/awesome-android</string>
+
 
 </resources>

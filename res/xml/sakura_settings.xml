@@ -28,32 +28,9 @@
             android:selectable="false"            
             android:fragment="com.android.settings.custom.sakuraDevsInfoFragment" />
 
-        <!-- Power Menu -->
-        <com.sakura.settings.preferences.CardviewPreference
+        <com.android.settingslib.widget.LayoutPreference
             android:key="powermenu__category"
-            android:title="@string/powermenu_title"
-            android:fragment="com.sakura.settings.fragments.PowermenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>   
-
-        <!-- Opensource_Zone Notifications 
-        <com.sakura.settings.preferences.CardviewPreference
-            android:key="Opensource_Zone"
-            android:title="@string/Opensource_Zone"
-            android:fragment="com.sakura.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
-
-            Extra_beta_options Misc 
-        <com.sakura.settings.preferences.CardviewPreference
-            android:key="Extra_beta_options"
-            android:title="@string/Extra_beta_options"
-            android:fragment="com.sakura.settings.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_misc"/>
-
-    -->
-
-<com.android.settingslib.widget.LayoutPreference
-            android:key="quicksettings_category"
             android:layout="@layout/sakura_settings_animation" 
             android:selectable="true"
-            android:fragment="com.sakura.settings.fragments.QuickSettings" />
+            android:fragment="com.sakura.settings.fragments.PowermenuSettings" />
 </PreferenceScreen>
