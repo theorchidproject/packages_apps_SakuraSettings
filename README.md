@@ -1,9 +1,8 @@
 -----------------------------------------------------------------------------
-<div align="center">
-<img src="https://i.imgur.com/3n4NiPo.jpg"> 
+<div align="center"> 
 <br>
 <br>
-<strong><i>Project Sakura based on LineageOS 19.0</i></strong>
+<strong><i>Sakura settings adapted for OrchidOs rom base</i></strong>
 <br>
 <br>
 </div>
@@ -11,11 +10,12 @@
 -----------------------------------------------------------------------------
 Credits:
 -------
+ * **Project Sakura OS ROM**
  * **Superior OS ROM**
- * **Alexey Derendyaev** - For the Base.
- * **Max** - For the Idea about tabs & drawables.
- * **Rohit Poroli** - For the About ROM Tab.
- * **DarkNess reDefined ROM** - For some drawables.
- * **EvolutionX ROM** - For some icons.
+ * **Alexey Derendyaev**
+ * **Max** 
+ * **Rohit Poroli** 
+ * **DarkNess reDefined ROM** 
+ * **EvolutionX ROM**
 
 
