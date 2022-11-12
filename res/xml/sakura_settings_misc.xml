@@ -37,15 +37,6 @@
         settings:min="10"
         settings:units="%" />
 
-    <!-- volume dialog -->
-    <com.sakura.settings.preferences.SystemSettingSeekBarPreference
-        android:key="audio_panel_view_timeout"
-        android:title="@string/audio_panel_view_timeout_title"
-        android:defaultValue="3"
-        android:max="10"
-        settings:min="1"
-        settings:interval="1" />
-    
     <com.android.settingslib.widget.LayoutPreference
         android:key="sakurasettings_footer"
         android:layout="@layout/sakurasettings_footer_animation" />
